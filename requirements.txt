@@ -1,0 +1,20 @@
+# Dados e processamento
+numpy
+pandas
+xarray
+netCDF4          # backend xarray para arquivos .nc (ERA5)
+
+# Download e APIs
+requests
+urllib3
+cdsapi           # ERA5 via Copernicus CDS
+
+# Machine learning
+scikit-learn     # DBSCAN (06_velocidade_propagacao)
+
+# Visualização
+matplotlib
+
+# Exportação
+pyarrow          # parquet (07_consolidacao_final)
+fastparquet      # parquet alternativo
