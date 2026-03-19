@@ -37,10 +37,11 @@ pip install -r requirements.txt
 
 > **ERA5:** crie `~/.cdsapirc` com suas credenciais do Copernicus CDS:
 > ```
-> url: https://cds.climate.copernicus.eu/api/v2
+> url: https://cds.climate.copernicus.eu/api
 > key: SEU_UID:SUA_API_KEY
 > ```
-> Cadastro gratuito em [cds.climate.copernicus.eu](https://cds.climate.copernicus.eu/user/register)
+> Cadastro e token pessoal em [cds.climate.copernicus.eu/profile](https://cds.climate.copernicus.eu/profile)
+> — instruções completas em [cds.climate.copernicus.eu/how-to-api](https://cds.climate.copernicus.eu/how-to-api)
 
 > **NASA FIRMS:** defina `FIRMS_KEY` no notebook 01 com sua chave da API.
 > Cadastro gratuito em [firms.modaps.eosdis.nasa.gov](https://firms.modaps.eosdis.nasa.gov/api/)
